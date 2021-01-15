@@ -1,0 +1,35 @@
+Rule [0,100,teBlock;minecraft:flower_pot;Lu0mP-0,rule2=0,100,teBlock;minecraft:flower_pot;Lu1mP-0,rule2=0,100,teBlock;minecraft:flower_pot;Lu2mP-0,rule2=0,100,teBlock;minecraft:flower_pot;Lu3mP-0] in template JG_HauntedHouse_CB_1v12.tml still uses numeric blockIDs! ERROR!
+Rule [0,100,teBlock;minecraft:flower_pot;Lu0mP-0,rule2=0,100,teBlock;minecraft:flower_pot;Lu1mP-0,rule2=0,100,teBlock;minecraft:flower_pot;Lu2mP-0,rule2=0,100,teBlock;minecraft:flower_pot;Lu3mP-0] in template JG_HauntedHouse_CB_1v12.tml still uses numeric blockIDs! ERROR!
+Rule [0,100,teBlock;minecraft:flower_pot;Lu0mP-0,rule2=0,100,teBlock;minecraft:flower_pot;Lu1mP-0,rule2=0,100,teBlock;minecraft:flower_pot;Lu2mP-0,rule2=0,100,teBlock;minecraft:flower_pot;Lu3mP-0] in template JG_HauntedHouse_CB_1v12.tml still uses numeric blockIDs! ERROR!
+
+There was a problem loading the file: 753_Illage_Kitchen_C4B.tml
+java.lang.Exception: Rule [0,100,cookingforblockheads:kitchen_floor-0], blockString [cookingforblockheads:kitchen_floor-0] in template 753_Illage_Kitchen_C4B.tml can absolutely not be mapped to anything known
+	at atomicstryker.ruins.common.RuinTemplateRule.<init>(RuinTemplateRule.java:256)
+	at atomicstryker.ruins.common.RuinTemplate.parseFile(RuinTemplate.java:680)
+	at atomicstryker.ruins.common.RuinTemplate.<init>(RuinTemplate.java:82)
+	at atomicstryker.ruins.common.RuinTemplate.<init>(RuinTemplate.java:88)
+	at atomicstryker.ruins.common.FileHandler.addRuins(FileHandler.java:370)
+	at atomicstryker.ruins.common.FileHandler.loadSpecificTemplates(FileHandler.java:215)
+	at atomicstryker.ruins.common.FileHandler.access$500(FileHandler.java:24)
+	at atomicstryker.ruins.common.FileHandler$LoaderThread.run(FileHandler.java:133)
+
+There was a problem loading the file: 753_Meteor_Quark.tml
+java.lang.Exception: Rule [0,100,quark:basalt-0], blockString [quark:basalt-0] in template 753_Meteor_Quark.tml can absolutely not be mapped to anything known
+	at atomicstryker.ruins.common.RuinTemplateRule.<init>(RuinTemplateRule.java:256)
+	at atomicstryker.ruins.common.RuinTemplate.parseFile(RuinTemplate.java:680)
+	at atomicstryker.ruins.common.RuinTemplate.<init>(RuinTemplate.java:82)
+	at atomicstryker.ruins.common.RuinTemplate.<init>(RuinTemplate.java:88)
+	at atomicstryker.ruins.common.FileHandler.addRuins(FileHandler.java:370)
+	at atomicstryker.ruins.common.FileHandler.loadSpecificTemplates(FileHandler.java:215)
+	at atomicstryker.ruins.common.FileHandler.access$500(FileHandler.java:24)
+	at atomicstryker.ruins.common.FileHandler$LoaderThread.run(FileHandler.java:133)
+Did not find any Building data for C:\Users\minid\Twitch\Minecraft\Instances\Dungeons, Dragons and Space Shuttles\config\ruins_config\-=|worldengine|=-, creating empty folder for it: failed
+
+Loading options from: C:\Users\minid\Twitch\Minecraft\Instances\Dungeons, Dragons and Space Shuttles\saves\New World\AoA_Greckon
+tries_per_chunk_normal = 4
+chance_to_spawn_normal = 7.0
+templateInstancesMinDistance = 550.0
+anyRuinsMinDistance = 180.0
+anySpawnMinDistance = 100
+anySpawnMaxDistance = 2147483647
+Ruins mod loaded successfully for world C:\Users\minid\Twitch\Minecraft\Instances\Dungeons, Dragons and Space Shuttles\saves\New World\AoA_Greckon, template files: 411
